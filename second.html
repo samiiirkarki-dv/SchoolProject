@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Career and Feedback</title>
+    <style>
+        body {
+            background-image: url("https://scriptshadow.net/wp-content/uploads/2014/11/Interstellar-Images.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #ffffff;
+            margin: 0;
+            padding: 40px;
+        }
+
+        .content-box {
+            background-color: rgba(0, 0, 0, 0.85);
+            padding: 30px;
+            border: 2px solid #3498db;
+            width: 550px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(52, 152, 219, 0.5);
+        }
+
+        h2 {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        ul, ol {
+            line-height: 2;
+            font-size: 1.1em;
+        }
+
+        input[type="text"], textarea {
+            width: 95%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #1a1a1a;
+            color: white;
+            border: 1px solid #3498db;
+            border-radius: 4px;
+        }
+
+        .submit-btn {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        .submit-btn:hover {
+            background-color: #2980b9;
+        }
+
+        a {
+            color: #f1c40f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        p {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content-box">
+        <a href="index.html">← Back to Main Page</a>
+
+        <h2>Career Milestones</h2>
+        <ol>
+            <li>Won an Oscar for Dallas Buyers Club.</li>
+            <li>Played Cooper in Interstellar.</li>
+            <li>Wrote the book "Greenlights".</li>
+        </ol>
+
+        <h2>His Favorite Foods</h2>
+        <ul>
+            <li>Texas BBQ Brisket</li>
+            <li>Steak and Fries</li>
+        </ul>
+
+        <hr>
+
+        <h2>Actor Feedback Form</h2>
+        <form action="index.html">
+            <label>Your Name:</label><br>
+            <input type="text" name="username" placeholder="Type name here..."><br>
+
+            <p>Gender:</p>
+            <input type="radio" name="gender"> Male 
+            <input type="radio" name="gender"> Female<br>
+
+            <p>Favorite Games:</p>
+            <input type="checkbox"> Football
+            <input type="checkbox"> Chess
+            <input type="checkbox"> Poker<br>
+
+            <p>Describe Matthew:</p>
+            <textarea rows="4" placeholder="He is a great actor..."></textarea><br>
+
+            <input type="submit" value="Submit Form" class="submit-btn">
+        </form>
+        <div style="margin-top: 21px;">
+        <a style="background-color: #3498db; border: 1px solid; padding: 5px; text-decoration: none; color: black; border-radius: 5px;" href="shapes.html">See Shapes</a>
+      </div>
+    </div>
+    
+
+</body>
+</html>
