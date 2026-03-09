@@ -1,2 +1,2 @@
 # SchoolProject
-This is a simple and basic school project realted to html and css.
+This is a simple and basic school project related to html and css.
